@@ -10,8 +10,8 @@ public class Program
 	}
 	
 	static void addOneToParam (int i)
-		{
-			i = i + 1;
-			Console.WriteLine("i is: " + i);
-		}
+	{
+		i = i + 1;
+		Console.WriteLine("i is: " + i);
+	}
 }
