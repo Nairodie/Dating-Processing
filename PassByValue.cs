@@ -11,6 +11,7 @@ public class Program
 	
 	static void addOneToParam (int i)
 	{
+		// i is 21 while x is 20
 		i = i + 1;
 		Console.WriteLine("i is: " + i);
 	}
