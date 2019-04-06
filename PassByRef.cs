@@ -11,6 +11,7 @@ public class Program
 	
 	static void addOneToRef (ref int i)
 	{
+		// passing in the reference, now both are 21
 		i = i + 1;
 		Console.WriteLine("i is: " + i);
 	}
