@@ -8,7 +8,7 @@ public class Program
 		name = readString("Enter your name: ");
 		
 		int age;
-		age = readInt("Enter your age:", 0 , 100);
+		age = readInt("Enter your age: ", 0 , 100);
 	}
 	
 	static string readString(string prompt)
@@ -19,7 +19,7 @@ public class Program
 			Console.WriteLine(prompt);
 			result = Console.ReadLine();
 		}
-		while(result == string.Empty);
+		while (result == string.Empty);
 		return result;
 	}
 	
