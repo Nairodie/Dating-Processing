@@ -6,7 +6,7 @@ enum AccountState
   Active,
   UnderAudit,
   Frozen,
-  CLosed
+  Closed
 };
 
 struct Account
